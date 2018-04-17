@@ -21,10 +21,12 @@ For open source program management best practices:
 * [Open Source Reading List](open-source-reading-list.md)
 * [Improve Your Open Source Development Impact](improve-open-source-dev-impact.md)
 * [Shutting Down an Open Source Project](shutting-down-an-open-source-project.md)
+* [Building Leadership in an Open Source Community](building-leadership-in-an-open-source-community.md)
 
 ## Open Source Program Case Studies
 
 * [Autodesk](casestudies/autodesk.md)
+* [Capital One](casestudies/capitalone.md)
 * [Comcast](casestudies/comcast.md)
 * [Dropbox](casestudies/dropbox.md)
 * [Facebook](casestudies/facebook.md)
