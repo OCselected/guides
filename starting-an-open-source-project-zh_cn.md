@@ -250,7 +250,7 @@ Such growth means that additional businesses may want to contribute more money t
 
 This happens regularly today, as enterprises and organizations realize that the technology problems they are trying to solve are larger than any of them individually. That's when they can begin to see strategic value in joining together with other companies in vendor-neutral joint projects that are working for the greater good in solving technical problems faced by businesses.
 
-Several examples of this approach are the open source projects for [Hyperledger](https://www.hyperledger.org/), which is a collaborative effort sponsored by The Linux Foundation to advance cross-industry blockchain technologies, and for the [Cloud Native Computing Foundation](https://www.cncf.io/), which is open source software used to create modern private and public clouds. Enterprises contribute not only developers to work on these large-scale projects but also provide plenty of dollars to help fund, promote and drive the technologies forward.
+采用这样的方式的开源项目例子，如 [Hyperledger](https://www.hyperledger.org/) 由Linux 基金会赞助合作成立的项目，旨在跨界的区块链技术，以及 [云原生计算基金会](https://www.cncf.io/)，用于孵化现代公有或私有云的一系列开源软件。企业不仅可以让开发者们参与到这些大型的项目当中来，还可以提供一定经济上的资助，共同推进和驱动技术的向前发展。
 
 ### 写在最后的忠告
 
