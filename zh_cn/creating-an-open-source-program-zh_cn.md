@@ -72,19 +72,21 @@ Google 运营自己的开源项目办公室坚持三个重要的原则：
 
 这些原则一直都被很好的执行，从创始伊始就一直坚持这样，而且值得夸耀的是，他们只有15名团队成员，却服务于全公司72000名员工。
 
-Much of its efforts to keep the open source ecosystem healthy involve hiring qualified and experienced engineers to work on projects, investing sizable amounts of the company's money in the open source foundations, groups, and projects that need it, while also regularly sponsoring technology conferences which spread the gospel and usefulness of open source software creation.
+Google 开源办公室更多的努力是去保持开源生态系统的健康发展，如通过雇佣有丰富经验的优秀工程师专门在相应的开源项目上专心工作，投资给一些需要金钱的开源基金会、组织和项目，当然也会定期的赞助一些传播开源软件创作的理念和实践的技术研讨会等等。
 
-It also means developing and running programs like [Google's Summer of Code](https://summerofcode.withgoogle.com/) which provides opportunities for students at accredited universities and colleges around the world to spend their summers creating code with help from mentors who provide training and guidance.
+Google 开源办公室也会开发和运营一些诸如[Google 代码夏令营](https://summerofcode.withgoogle.com/)这项的公益项目，Google 代码夏令营为全球的在校的大学生提供参与开源项目的机会，让这些学生们可以利用暑假在开源社区的导师们的训练和指导下进行编码。
 
-For Google's open source program office, the Summer of Code is an example of a program which provides direct benefits for its investments – a stream of potential future developers who can one day come to work for the company, armed with experience and some real-world knowledge of how it does open source development. In the open source world, that same strategy can benefit many other companies through similar open source program office investments in the communities in which they participate.
+对于Google 开源办公室来说，代码夏令营这样的项目是示范性的，其带来的益处是巨大的，也是有目共睹的—— 要知道参与项目的这些学生都是具备开发潜力的，他们很有可能在未来毕业时选择Google作为他们的雇主，那时已经是拥有丰富开发经验和开源开发的实战经验的工程师了。在开源的世界里，类似的策略也同样让其他的公司受益，因为开源项目办公室在社区的投入让学生们有了参与社区的机会。
 
-Most open source community management at Google happens within its many product teams, with the open source program office giving teams and projects support to follow the paths they want to take. The business goals vary for individual projects based on whether it makes sense to open source a project in each case. Some 2,000 to 4,000 open source projects are typically underway at once at Google.
+Google的大多数开源社区管理都在其众多产品团队中进行，开源项目办公室给予团队和项目支持以遵循他们想要的路径。各个项目的业务目标各不相同，具体取决于在每种情况下开源项目是否合理。 目前在Google 正在进行中开源项目大约有 2000~4000 个。
 
-> "We allow the various business units around the company to make the decision on whether it makes sense to open source a given project from a business perspective, because there's a lot of different reasons why you might open source a project or a piece of code. We're comfortable with allowing projects to take the approach that works for them given their goals. We play more of a role of facilitating and advising." - [Will Norris](https://twitter.com/willnorris?lang=en), open source office manager at Google.
 
-The Google program office is made up of a compliance team which includes two lawyers, an outreach team for event participation and an engineering team that builds tooling to automate compliance checks and support the company's development programs. Another of its important responsibilities is carefully and constantly tracking a wide range of statistics on open source use, including what needs to be built to be compliant and how long it takes for code to be released or brought in.
+> "Google 允许公司各个业务部门自行做出决定，因为开源的理由总是各式各样的，要回归到商业上让其自行定夺。作为开源办公室，非常乐意看到大家采用各自认为最好的方法，来实现自己的目标。开源项目办公室更大程度起到的是促进和建议的作用。" - [Will Norris](https://twitter.com/willnorris?lang=en)，Google 开源项目办公室经理
 
-A recent role being taken on by the Google program office is an interesting initiative which is encouraging all workers who are responsible for open source in their primary jobs -- whether they are graphics designers, tech writers, marketing people or developers -- to spend up to 20 percent of their time to do their specific job for other projects within the company. The idea is to foster more cross-collaboration between teams, which can help them understand each other and improve projects across the board.
+Google 开源项目办公室的合规性团队有两名律师、活动参加的推广团队、以及一个工程团队，工程团队会开发一些工具如帮助自动的合规性检查，也会支持公司的其它开发团队。开源办公室还有另外一个非常重要的职责就是仔细而不间断的跟踪公司范围内所使用带开源项目状况，其中包括构建的合规性、代码引入和发布的时间等。
+
+最近，Google的开源项目办公室又有了一个新的职能，那就是鼓励公司的所有工作人员，在他们主要的开源工作（图形设计师、技术作者、营销人员或开发者）之外，要去花20%的时间去参与到公司其他的项目中去。这个想法是促进团队之间更多的交叉合作，这可以帮助他们相互理解并改进公司层面上的全局项目。
+
 
 ## Establishing an open source office   
 
@@ -92,27 +94,27 @@ A recent role being taken on by the Google program office is an interesting init
 
 那么你该如何开启开源项目办公室之旅了呢？这里有一些重要的步骤供参考：
 
-### 1.Find a leader
+### 1. 寻找带头人
 
-Regardless of how your planning starts, it’s important to find the right leader to help develop and then run the fledgling program office inside a company. The top candidate will have a detailed understanding about how open source works, along with some technical chops from working as a developer, contributor, or committer on existing open source projects. They should have a broad understanding of your company’s business along with the business acumen and management skills to help inform strategy and plan across business units. And they need to be sociable so they can convey enthusiasm, knowledge, and information to others and help them understand how the open source initiative is going to transform, change, and improve things for the company. The head of the program office needs to be able to talk with people about the deep technology, but they don't have to know the ins and outs of every technology at play because there are just too many to master.
+无论计划如何开始，重要的是找到合适的领导者来帮助开发并运营公司内部刚刚起步的项目办公室。顶尖级的候选人对于开源是如何工作的细节了如执掌，有的甚至本身就在现有的开源项目中的开发者、贡献者或提交者，也就是说本身是打着技术烙印的。候选人应对公司的业务有着广泛而深入的理解，并具备商业敏锐度和一定的管理技能，以帮助制定业务部门的战略和计划。候选人也需要善于交际，这样他们才能将热情、知识和信息传递给他人，并帮助人们去理解开源项目将如何转变，更改以及改进公司的事情。项目办公室的头门需要能够和人们深入的讨论技术，但是他们不需要知道每个项目非常细的细节，因为他们有太多的项目需要关注。
 
-In the spirit of open source collaboration, a plethora of online resources exists to help find the best candidates including [detailed sample job description postings](https://github.com/todogroup/job-descriptions) for [open source program managers](http://todogroup.org/blog/sample-job-req/) and other leaders from a variety of companies that established such roles, including Capital One, Box, VMware, Microsoft, Twitter and Yahoo.
+本着开源协作的精神，目前已存在大量的在线资源可以帮助找到最佳的候选人，其中包括针对[开源项目经理](http://todogroup.org/blog/sample-job-req/) 的职位[详细描述的示例](https://github.com/todogroup/job-descriptions)，更何况已经有很多的公司已经设立了此岗位，可以去看看 Capital One、Box、 VMware、 Microsoft Twitter以及 Yahoo等公司是怎么做的。
 
 ### 2. Define your operations
 
-The budget, staffing, and technology tools and systems needed by a new program office are also key issues to resolve in establishing its operations. Some companies begin with a part-time manager, but learn they will only get so far with that approach. Making the position someone's full-time job is a solid step to get the program off the ground, along with a small support staff to keep it nimble.
+预算、人员、技术工具以及系统，这些都是新建立项目办公室在日常运营下必须的关键内容。有些公司开始的时候设立了兼职的经理，但是这么做是远远不够的，因为开源办公室会占用大量的时间来处理各种事情，最好的方法，仍然是让某人担任全职工作，这是让项目办公室成功的前提，如果能够一个小型的团队则更加的棒。
 
-If a program office is too large, there's a danger it can become too centralized. You want to keep developers and open source communities within the company in the process as much as possible. Outsized offices allow others to defer issues to the program office rather than resolving them on their own.
+如果项目办公室规模已经很大了，那么就有可能出现中心化的趋势。你要尽可能的让开发者和开源社区保持良好的关系，尤其是符合公司内部的流程。大型的开源办公室要提人们承担更多的职责，而不是让大家自行解决。
 
-An example of a well-defined open source program office is one that drives needed policy, processes and tools, while also operating with a mantra of eliminating friction where it is found, using tools to automate what can be streamlined, and delegating tasks which need to be accomplished. We’ll cover more specifics on how to set policies and processes in the sections below.
+一个典型的开源项目办公室，就是驱动需要的策略、流程以及工具，同时要解决一些内部的摩擦，让事情良好的运作，使用工具来自动化那些可精简的内容，并要委派一些必须的任务给相应的图阿奴地。我们将在以下部分介绍如何设置策略和流程的更多细节。
 
-A program office must offer structured policies and processes but also remain flexible. When open source users and contributors need help, the office operates more like a consultancy, providing guidance while still allowing employees to make individual or group business decisions relating to their work. Ultimately, the goal is to establish the right balance of duties and responsibilities to meet the needs of your company and its open source users.
+开源项目办公室必须提供结构化的策略和流程，但也要保持一定的灵活性。当开源的用户和贡献者需要帮助的时候，办公室要即使的提供诸如咨询、指导，且要告诉员工可以进行独立的决定。归根结底，开源项目办公室的目标是建立起在责任和义务之间进行适当的平衡，从而以满足公司和开源用户的需求。
 
-### 3. Seek feedback and buy-in
+### 3. 收集反馈以及 buy-in
 
-Establishing an open source program office isn't something that should be done in a vacuum. Because it will have a central role in your business, creating it successfully will require open and honest input and feedback from all involved parties inside enterprises. Making sure that everyone from the executives to the developers have a say in its creation will help give the effort broad-based support.
+创建开源项目办公室和任何事情一样，不可能凭空产生，正因为它处于公司的中心位置，所以成功的创立它需要开放的心态、诚实的态度，要去不断的付出并从企业内部所有参与的部门收集反馈。并要确保从高管到开发人员的每个人都有发言权，这将有助于提供广泛的支持。
 
-> "If your goal is to really get a handle on what your company is doing with open source, in both directions – releasing and bringing it in – it really requires thinking about what are the core things that you really, really care about. Keep your process as streamlined as possible to focus on those things and then on top of that, automate as much as you possibly can." - [Will Norris](https://twitter.com/willnorris)，Google 开源项目办公室经理
+> "如果你的目标是要真正掌握你的公司在开源方面的做法，在两个方向上 - 释放和引入 - 它确实需要考虑你真正关心的核心事情是什么。 尽可能简化流程，专注于这些事情，然后再尽可能多地自动化。" - [Will Norris](https://twitter.com/willnorris)，Google 开源项目办公室经理
 
 ## 项目办公室的结构
 
@@ -122,13 +124,13 @@ So how and where should open source program offices fit inside a company's organ
 
 For companies that have large intellectual property portfolios, that could mean the open source program office might be a perfect fit in the legal office, where developers can work closely with the legal team on issues that arise. That might be a good fit for a hardware company because it’s always concerned about potentially running into IP-related legal issues.
 
-### 工程Engineering
+### 工程
 
 Other companies are more engineering-driven, so they choose to maintain their open source program offices within their engineering departments. That allows them to focus their efforts directly on making their developers more effective and productive in their work.
 
 ### 开发者关系，市场以及沟通
 
-In other cases, some open source offices are located inside the marketing wing of organizations because they use open source to funnel leads aimed at selling the products they build using open source.
+还有一种情况，有些开源项目办公室设在了组织的营销部门内部，因为公司是使用开源的渠道来销售基于开源代码构建的产品。
 
 At Twitter, where open source use has been integral to the company's success, developers were finding it difficult to contribute back to open source projects starting in 2010 because the company's legal department had serious concerns about code licensing and related issues. Developers and software engineers responded by seeking ways to automate the license compliance processes – to "grease the wheels" – to alleviate the concerns of the legal and engineering departments. The result was the hiring of an open source program manager and the creation of an open source program office to fix processes, streamline procedures, bring in tools to automate tasks and make other needed changes.
 
@@ -142,9 +144,9 @@ Under its process, Microsoft engineers can go into the company's open source wor
 
 ## 管理角色
 
-In creating an open source program office, decisions also must be made to establish the roles and responsibilities of the open source program manager, the company's legal team, and any review board made up of engineers and executives.
+在创建开源项目办公室时，还必须做出决定，即要去确定开源项目经理、公司的法律团队以及由工程师和高管组成的审核委员会的角色和责任。
 
-### Program Manager
+### 项目经理
 
 For maximum effectiveness, the program manager should be empowered as an executive-level position with direct oversight and hands-on management of the company's interests in its open source activities. That would give them the tools they need to lead the way inside an enterprise toward its open source goals and vision.
 
