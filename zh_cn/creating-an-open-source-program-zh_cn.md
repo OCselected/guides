@@ -118,23 +118,24 @@ Google 开源项目办公室的合规性团队有两名律师、活动参加的�
 
 ## 项目办公室的结构
 
-So how and where should open source program offices fit inside a company's organizational structure? Should it be inside the engineering department? Or in the legal department, the CTO's office or in another specific business unit? Again, that depends on your company's primary business and your open source strategy.
+那么开源项目办公室该如何放在公司组织架构合适的位置？它应该在工程部门之下吗？又或者是法律部门？还是CTO直接管辖？还是专门的业务部门？这是非常灵活的了，具体要看公司的主要业务以及开源的战略了。
 
-### 法律
+### 放在法律部门
 
-For companies that have large intellectual property portfolios, that could mean the open source program office might be a perfect fit in the legal office, where developers can work closely with the legal team on issues that arise. That might be a good fit for a hardware company because it’s always concerned about potentially running into IP-related legal issues.
+对于一些公司来讲，若是拥有大量的知识产权方面的组合的话，那么开源项目部门放在法律部门是再合适不过的了，开发人员可以在出现的问题上与法律团队密切合作。这可能非常适合硬件公司，因为硬件公司总是会遇到与知识产权相关的法律问题。
 
-### 工程
+### 放在工程部门
 
-Other companies are more engineering-driven, so they choose to maintain their open source program offices within their engineering departments. That allows them to focus their efforts directly on making their developers more effective and productive in their work.
+对于一些工程驱动的公司来讲，则应该选择将开源项目办公室方式工程部。这使得他们可以集中精力，从而让开发人员在工作中更加高效且极具生产力。
 
 ### 开发者关系，市场以及沟通
 
 还有一种情况，有些开源项目办公室设在了组织的营销部门内部，因为公司是使用开源的渠道来销售基于开源代码构建的产品。
 
-At Twitter, where open source use has been integral to the company's success, developers were finding it difficult to contribute back to open source projects starting in 2010 because the company's legal department had serious concerns about code licensing and related issues. Developers and software engineers responded by seeking ways to automate the license compliance processes – to "grease the wheels" – to alleviate the concerns of the legal and engineering departments. The result was the hiring of an open source program manager and the creation of an open source program office to fix processes, streamline procedures, bring in tools to automate tasks and make other needed changes.
+在Twitter，开源的使用已经成为公司成功不可或缺的一部分，在2010年的时候，开发者们发现很难想开源社区做出贡献，因为公司的法律部门对代码许可和相关问题非常的重视。于是，开发人员和软件工程师通过寻求方法来实现许可证合规流程的自动化 - “润滑轮子” - 以减轻法律和工程部门的担忧。最终公司聘用了一位开源项目经理，并创建了一个开源项目办公室来优化流程，简化步骤，引入工具来自动执行任务以及进行其他所需的更改。
 
-Intriguingly, Netflix took a different approach and chose not to create or use a centralized open source program office, says Andrew Spyker, the manager of the company's container cloud. Instead, the streaming movie and entertainment company organizes its open source use through a [small, cross-functional working group](https://www.youtube.com/watch?v=oq__rmr0Qe8&t=547s) that runs an internal mailing list for discussions and meets informally once a month to help each other resolve open source issues. The volunteer working group members assist other decentralized teams, leaving everyone with less need to focus on administrative tasks such as legal issues, tools, monitoring and community promotion. For Netflix this is a workable approach because it's an entertainment company and not a software company.
+而Netflix则采取了完全不同的做法，据Netflix的容器云经理 Andrew Spyker介绍，Netflix根本就没有去建立一个中心化的开源项目部。相反，这家在线电影和娱乐的公司通过组织了一个[小型的，跨部门的小组](https://www.youtube.com/watch?v=oq__rmr0Qe8&t=547s)，运行一些内部的邮件列表来讨论，每月举行一次非正式会议，以帮助彼此解决开源问题。志愿者工作组成员协助其他分散的团队，使每个人都不必关注诸如法律问题，工具，监督和社区推广等行政任务。这种方式之所以对Netflix有效，是因为它是一家娱乐公司而不是软件公司。
+
 
 At Microsoft, the structure of its open source program office, which is inside its engineering department, is unique because it has some 60,000 software engineers to support. That large number of developers required a move away from the idea that the details of all open source projects would have to go through one centralized office, which would have been overwhelmed and unworkable. Instead, for things that can't be automated, the company's open source program office team enables engineers to make local decisions about their projects, rather than having to attempt to navigate a centralized bottleneck that could gum up the operations.
 
@@ -162,15 +163,16 @@ The open source compliance team is a cross-disciplinary group consisting of vari
 
 The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts. These may include documentation, supply chain, corporate development, IT, localization and an Open Source Executive Committee (OSEC). However, unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB. Samsung program manager Ibrahim Haddad’s book, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/), provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.
 
-### Developer Relations, Advocacy, and Evangelists
+### 开发者关系，布道师，倡导者
 
-Open source developer relations and evangelists can be important to a fledgling open source program office because they can work to build interest and enthusiasm within a company's developer community for specific projects, which can help grow the efforts and increase teamwork among engineers. Evangelists often go to conferences and tech events and explain what open source is to help audiences understand how it can be used and what challenges and opportunities it offers, while sharing their corporate experiences with the open source community.
+开源开发者关系和布道师对于一个刚刚起步的开源项目办公室显得很重要，因为他们可以在公司内的开发人员社区为某个项目倡导大家的兴趣和热情，这可以帮助增加工程师的关注度，并增加团队合作。布道师会经常到研讨会和技术活动上，为开源项目的受众答疑解惑，而且也会在开源社区上分享一些公司的经验之类的。
 
-### Others
+
+### 其它
 
 In addition, the creation of other job roles is important for the success of the open source program office, including tool administrators, training managers, integration developers for tools and systems, deployment support staffers, implementation project leads, and open source evangelists. Tool administrators, for example, are needed to help select, provide and integrate needed tools for engineers working on their open source projects, while also ensuring the tools meet the licensing and other requirements of an enterprise.
 
-## Setting policy and processes
+## 设定政策和流程
 
 With many of the other important components now planned or assembled for your company's open source program office, from its creation to its structure to personnel, the next step is to develop well-defined policies and processes which will enable consistent implementation of your company's open source strategy.
 
