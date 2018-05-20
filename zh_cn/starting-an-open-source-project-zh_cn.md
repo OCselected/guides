@@ -16,11 +16,12 @@ By opening up your own code and development practices to outside use and contrib
 
 This is true whether your primary mission is financial services, providing health care, operating fleets of trucks, selling retail goods in stores or online, providing transportation to commuters and airline passengers, building roads and bridges, or thousands of other specialties. While these enterprises certainly want to keep the applications and technologies that are core to the value they provide to their customers, there exists a myriad of code and software that are dependencies and which are not a high value differentiator to the organization. Opening these technologies up as a project to outside contributions can create new possibilities and opportunities for growing and strengthening this code.
 
-*"No matter how many smart people we hire inside the company, there's always smarter people on the outside. We find it is worth it to us to open source and share our code with the outside world in exchange for getting some great advice from people on the outside who have expertise and are willing to share back with us." -* Jared Smith, Capital One 开源社区经理
+*"无论公司雇佣了多少聪明的员工，而总是还会有更加聪明的人没有招进来。不过我们发现了一种利用公司外部聪明的人的做法，那就是参与到开源去，我们先分享我们的代码，然后会发现收获的更多，那些外部的聪明提交的想法真是棒极了！" -* Jared Smith, Capital One 开源社区经理
 
 Companies look to open source when they want to move their agendas forward in areas where they might not have the needed talent on staff. By moving to open source, they can often speed up their efforts and work with others who are working toward the same software goals, while also cutting costs and improving their end products.  
 
-Open source projects provide freedom to collaborate -- even among competitors in the same industry -- and can accelerate development by placing many eyes on the code in progress. By working together, developers can share openly, gain plenty of feedback, and together build code that is scalable, efficient, and high quality.
+
+开源项目提供的自由的进行协作--甚至是同一行业内相互竞争的友商——也因为有跟多的人参与可以加速项目木的开发。通过紧密的合作，开发者们可以公开的分享，收获大量的反馈，并共同构建可扩展，高效和高质量的代码。
 
 ![image alt text](starting-an-open-source-project1.jpg)
 
@@ -122,15 +123,15 @@ Another common consideration in licensing is choosing between copyleft and permi
 
 Each licensing approach has its advantages and disadvantages, but be aware of the potential for fragmenting your project, which is a particular problem for software that needs to be interoperable or provide portability across various vendor solutions. Often this issue is addressed by creating conformance programs that permit usage of the project trademark if the commercial solutions pass a community created test or set of requirements. Thinking about this up front will help inform your legal review and plans for the project. (For more extensive reading on open source legal issues and considerations, see our recommended [Reading List](https://www.linuxfoundation.org/open-source-guides-reading-list/).)
 
-In summary, the steps in the legal review process include:
+总结一下，法律上的审核流程可以包括下面几步：
 
-- [ ]Consider the impact of open sourcing on your company’s intellectual property
-- [ ]Ensure full compliance with open source licenses
-- [ ]Select an open source license for the source code to be released, document all licensing requirements very clearly i your project
-- [ ]Decide if you need a contributor agreement
-- [ ]Consider the possible non-software outputs from the community and the appropriate licenses, such as documentation and specifications
-- [ ]Decide on any trademark related considerations
-- [ ]Decide whether there are additional factors to build into your plans for an ecosystem, such as conformance testing
+- [ ]请慎重思考开源对于贵公司的知识产权影响
+- [ ]确保完全符合开源许可证
+- [ ]为源代码的发布选择一个开源的许可证，要对项目所有许可证要求作出清晰的说明
+- [ ]如果需要一份贡献者意向书的话，也请考虑
+- [ ]考虑社区可能提供的非软件输出和适当的许可证，例如文档和规范
+- [ ]考虑所有和商标有关的事情
+- [ ]决定是否还有其他因素可以纳入您的生态系统计划中，例如一致性测试
 
 ### 技术审核
 
@@ -140,13 +141,13 @@ You’ll want to ensure that no portion of the code you plan to release violates
 
 The technical review should include verification of all license and copyright notices, and private code comments should be scrubbed. Steps include:
 
-- [ ] Remove critical dependencies on non-public components
-- [ ] Provide documentation and use case examples
-- [ ] Remove internal comments, references to other internal code, etc.
-- [ ] Ensure coding style is consistent
-- [ ] Update copyright notices in source code files
-- [ ] Add license notice in source code files
-- [ ] Add license text as a file in the root directory
+- [ ]将严重依赖但不能公开的组件去掉
+- [ ]请提供文档和案例
+- [ ]删除内部的注释、引用、以及其他内部的代码等等
+- [ ]确保代码风格的一致
+- [ ]在源代码文件中更新版权所有的信息
+- [ ]在源代码文件中更新许可证信息
+- [ ]在仓库的根目录中添加许可证文件
 
 ### 治理
 
@@ -202,24 +203,24 @@ Eventually, after all the planning, preparations and multi-faceted reviews and s
 
 Once these critical parts are all in place, it is time to open it to the world and gain input from contributors. When interested contributors inspect the project and see it is thoughtful, concise, and valuable, they'll be excited to participate out of the gate because it's something they can use.
 
-Essential tasks prior to launch:
+发布之前的基本任务：
 
-- [ ] Pre-brief launch partners
-- [ ] Ensure that all project infrastructure is running, secure, and scalable
-- [ ] Ensure developers join and monitor communication channels (IRC, mailing lists, etc.)
-- [ ] Release source code
-- [ ] Follow the open source development model
+- [ ] 事先简短的启动合作伙伴
+- [ ] 确保所有项目的基础设施都是可运行的、安全的和可扩展的
+- [ ] 确保开发者是可以加入和查阅社区频道的(IRC、邮件列表等)
+- [ ] 发布源代码
+- [ ] 遵循开源的开发模式
 
-### 一定不要做市场
+### 一定要做市场相关
 
 Of course, the launch doesn't mean the end of your work. To keep the project moving along, there are a series of additional business and marketing steps that need attention as well. They include promoting the project, laying out a successful operational strategy, providing a realistic budget and project branding, as well as establishing lively social media accounts and useful domain names to bolster its long-term success.
 
 A marketing review establishes guidelines for branding. This is particularly important, as it helps to ensure a consistent message in the market. Steps in the marketing review include:
 
-- [ ] Design a project logo, color scheme, website, collateral, etc.
-- [ ] Formalize branding guidelines
-- [ ] Register social media accounts for the project (Twitter, Facebook, LinkedIn, etc.)
-- [ ] Register domain names for the project
+- [ ] 设计项目的logo、颜色标识、网站、以及附属品等
+- [ ] 正式制定品牌指南
+- [ ] 为项目注册社交媒体账号(Twitter、Facebook、LinkedIn等)
+- [ ] 为项目注册相应的域名
 
 Now that you have the project, it's your job to promote it and let people know it's out there so they can use it and work on it. As a marketer, it's a fun challenge because your litmus test for success here is how many people you can drive to the project to join in to contribute code, participate in forums, offer bug fixes and report issues.
 
@@ -227,28 +228,26 @@ Now that you have the project, it's your job to promote it and let people know i
 
 ### 构建社区
 
-After the project has launched, it is essential to monitor the vitality of the external community.
+在项目启动之后，那么接下来做的事情就是社区了，关注社区的活力对于项目来说至关重要。
 
-Community building does not happen automatically. In the early stages of the project, it may be
+社区的构建是适合"佛系"经营的。在项目的早期阶段，是需要主持一些开发者聚会或赞助一些线下会议，乃至在重大会议上露脸。
 
-necessary to host developer events or sponsor meetups at major conferences to build momentum.
+另外，管理大家的期望以及履行项目治理和透明度的义务也非常的重要。
 
-It’s also extremely important to manage expectations and fulfill obligations for project governance and transparency.
+持续的活动包括：
 
-Ongoing activities include:
+- [ ] 任命社区经理或社区布道师
+- [ ] 确保社区的变化都能够很清楚传达，诸如项目的方向变化、或者是治理方面的内容。
+- [ ] 尽力吸收其它类似社区的最佳实践
+- [ ] 鼓励并提供机会给面对面的社区建设
+- [ ] 参加相应的活动，并鼓励大家提交演讲
+- [ ] 考虑定期的举办本地的聚会
 
-- [ ] Designate a community manager or community advocate
-- [ ] Ensure any changes to direction or governance are clearly communicate
-- [ ] Follow best practices of other similar communities
-- [ ] Encourage and provide opportunities for face-to-face community building
-- [ ]Identify appropriate events and have the community submit talks
-- [ ]Consider doing local meetups
+通过构建一个多样性的贡献者群组，此时就可以和其它的一些对项目感兴趣的企业或组织进行一系列的讨论，告诉他们你的项目的价值所在，从而试图说服他们对项目投入时间、金钱或者是其它的资源，以此来进一步的扩大项目，以让项目更上一层楼。如此就能达到一个正的循环，通过获得外部的资源，项目可以扩张并获得更多的贡献者。
 
-By building up a diverse group of contributors, you can later decide to move your project to the next level by having discussions with other enterprises and organizations that see the work as valuable to determine if they are interested in investing their time, money and other resources to expand your initial efforts. By gaining input and resources from others, the project can be expanded and grown to do more for additional contributors.
+如此的增长意味着有更多的企业会投入更多的资金来让他们的开发者加入到项目中，以实际的行动来推动社区工作的进展，他们也许会捐赠 $10,000 或者 $250,0000 ，又或者更多的钱，当然要视项目的重要程度，以及对其它公司的意义而定。一旦你的项目开启了，如果项目可以帮助到某些公司的话，那么这些公司就会参与进来做贡献，或者是捐献现金。
 
-Such growth means that additional businesses may want to contribute more money to bring their own developers in to join the efforts and help move the work forward by putting their weight behind the efforts you've begun. That may involve $10,000 or $250,0000 or more, depending on the importance of the project and what it means to other companies. Once your project begins, other companies can come in to contribute funding toward the work if it will aid their missions.
-
-This happens regularly today, as enterprises and organizations realize that the technology problems they are trying to solve are larger than any of them individually. That's when they can begin to see strategic value in joining together with other companies in vendor-neutral joint projects that are working for the greater good in solving technical problems faced by businesses.
+这样的事情，现在看起来已经是司空见惯，因为现代的企业和组织都意识到：他们试图解决的技术问题不是任何一家独立的公司能够搞得定的。人们逐步的开始看到开源的战略价值，与其他公司一起参与供应商中立的联合项目，而这些项目恰是致力于解决企业所面临的技术难题。
 
 采用这样的方式的开源项目例子，如 [Hyperledger](https://www.hyperledger.org/) 由Linux 基金会赞助合作成立的项目，旨在跨界的区块链技术，以及 [云原生计算基金会](https://www.cncf.io/)，用于孵化现代公有或私有云的一系列开源软件。企业不仅可以让开发者们参与到这些大型的项目当中来，还可以提供一定经济上的资助，共同推进和驱动技术的向前发展。
 

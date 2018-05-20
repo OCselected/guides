@@ -136,12 +136,11 @@ Google 开源项目办公室的合规性团队有两名律师、活动参加的�
 
 而Netflix则采取了完全不同的做法，据Netflix的容器云经理 Andrew Spyker介绍，Netflix根本就没有去建立一个中心化的开源项目部。相反，这家在线电影和娱乐的公司通过组织了一个[小型的，跨部门的小组](https://www.youtube.com/watch?v=oq__rmr0Qe8&t=547s)，运行一些内部的邮件列表来讨论，每月举行一次非正式会议，以帮助彼此解决开源问题。志愿者工作组成员协助其他分散的团队，使每个人都不必关注诸如法律问题，工具，监督和社区推广等行政任务。这种方式之所以对Netflix有效，是因为它是一家娱乐公司而不是软件公司。
 
+对于微软来说，开源项目办公室的架构则是放在了工程部门的内部，它之所以是如此独特，是因为它要服务于6万名软件工程师。如果说让这样规模的开发者针对每个开源项目的细节来去和中心化的开源项目办公室打交道的话，那简直不敢想象，对于办公室来说是不堪重负的，是绝对不可行的。相反，对于无法自动执行的事情，微软的开源项目办公室团队让工程师对他们的项目自行进行决策，而不必所有的琐碎的事情都去和办公室来协商，那样办公室必定会成为瓶颈。
 
-At Microsoft, the structure of its open source program office, which is inside its engineering department, is unique because it has some 60,000 software engineers to support. That large number of developers required a move away from the idea that the details of all open source projects would have to go through one centralized office, which would have been overwhelmed and unworkable. Instead, for things that can't be automated, the company's open source program office team enables engineers to make local decisions about their projects, rather than having to attempt to navigate a centralized bottleneck that could gum up the operations.
+在此过程中，微软工程师可以进入公司的开源工作流程，分享他们想要使用一段代码或向开源社区发布某些内容，然后接收提供反馈的本地评论者的回复。 大约有300个不同的商业和法律评审团队可以利用他们的专业知识权衡本地化请求，通过高度专业化的流程帮助为公司提供可行的方法。
 
-Under its process, Microsoft engineers can go into the company's open source workflows, share that they want to use a piece of code or release something to an open source community, and then receive responses from local reviewers who provide feedback. About 300 different groups of business and legal reviewers are available to weigh in on the localized requests with their expertise, helping to provide a workable approach for the company through a highly specialized process.
-
-> "If we tried to have a centralized body to approve open source for Windows, Office, and Azure, we would be pulling our hair out. Those are fundamentally different businesses. We give **engineers** the tools and guidance to enable their work, but are not a **central approval body**. That works in some companies but would not work here." - [Jeff McAffer](https://twitter.com/jeffmcaffer), director of the [Open Source Programs Office at Microsoft](https://opensource.microsoft.com/resources/office)
+> "如果我们试图建立一个中心化的机构来批准Windows、Office、以及Azure的开放源代码，那么我们一定会抓狂的 这些是根本不同的业务。 我们会为 **工程师** 提供工具和向导来帮助大伙工作，但是不会建立那种 **中央批准结构**，中心化的方式或许在其它地方可以行的通，但在微软不行。" - [Jeff McAffer](https://twitter.com/jeffmcaffer) ，[微软开源项目办公室](https://opensource.microsoft.com/resources/office)总监。
 
 ## 管理角色
 
@@ -149,19 +148,21 @@ Under its process, Microsoft engineers can go into the company's open source wor
 
 ### 项目经理
 
-For maximum effectiveness, the program manager should be empowered as an executive-level position with direct oversight and hands-on management of the company's interests in its open source activities. That would give them the tools they need to lead the way inside an enterprise toward its open source goals and vision.
+欲求得效率最大化，应该授权项目经理担任管理层职位，对公司在开源活动中的利益进行直接监督和实际管理。这样的话，就等于为项目经理提供了很好的环境和工具，让其可以引导企业实现开源的目标和愿景。
 
-Microsoft uses an Open Source Executive Council, which is similar to a review board. The group, which is made up of vice presidents from all the major business units inside the company, provides board of directors-style guidance on policy changes and introductions, sets priorities for the open source program, and assists in driving changes in behavior.
+微软使用的是开源执行委员会，这与审查委员会相似。 该小组由来自公司内部所有主要业务部门的副总裁组成，为政策变更和介绍提供董事会式的指导，确定开源计划的优先级，协助推动行为变化。
 
-### Legal
+### 法律
 
-Like every other function inside a company, legal teams must have a say in the operations of the open source program office to ensure compliance with laws, open source licensing agreements, and other legal details. Specific to open source, the legal team needs to be responsible for ensuring that a company can consume code internally and contribute back to projects with acceptable terms. Larger organizations should consider hiring or training a dedicated attorney to advise their open source program. But you could also use a part-time, knowledgable staff member or outside counsel. It is often helpful to work with an attorney who is knowledgeable and experienced with open source licensing and IP as it can be a specialized, and at times baffling, legal domain relative to commercial contracts or standards.
+就像其它公司内部的职能部门一样，法律团队必须能够建立起和开源项目办公室的对话与沟通，这样才能保证法律的合规性、开源许可协议、以及其它的法律细节。具体到开源，法律团队需要负责确保公司可以在内部使用代码并以可接受的条款回馈项目。较大的组织应考虑雇用或培训专职律师，为其开源计划提供建议。 但你也可以使用兼职，知识渊博的工作人员或外部顾问。 与熟悉开源许可和知识产权知识和经验的律师合作往往很有帮助，因为它可能是一个专业化的，有时又是非常令人困惑的，与商业合同或标准相关的法律领域。
 
-### Compliance Team
+### 合规性团队
 
-The open source compliance team is a cross-disciplinary group consisting of various individuals tasked with the mission of ensuring open source compliance. The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the compliance officer (who is often the open source program manager).
+开源合规团队是由多个人组成的跨学科团队，其任务是确保开源合规性。核心团队，通常被叫做开源审核委员会（OSRB），由工程和产品团队的代表组成，一名或多名法律顾问，以及一名合规性官员（此人通常由开源项目经理担任）。
 
-The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts. These may include documentation, supply chain, corporate development, IT, localization and an Open Source Executive Committee (OSEC). However, unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB. Samsung program manager Ibrahim Haddad’s book, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/), provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.
+合规性团队还需要扩展的，他们由多个部门的不同人员组成，这些部门需要持续为合规工作做出贡献。他们包括文档、供应链、合作部门、IT、本地化以及开源执行委员会（OSEC）。以及，OSRB。
+
+Samsung 的项目经理 Ibrahim Haddad 曾写过一本 [企业中的开源合规性](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)，详细讨论了参与实现开源合规的个人的角色和责任。
 
 ### 开发者关系，布道师，倡导者
 
@@ -170,17 +171,18 @@ The extended team consists of various individuals across multiple departments th
 
 ### 其它
 
-In addition, the creation of other job roles is important for the success of the open source program office, including tool administrators, training managers, integration developers for tools and systems, deployment support staffers, implementation project leads, and open source evangelists. Tool administrators, for example, are needed to help select, provide and integrate needed tools for engineers working on their open source projects, while also ensuring the tools meet the licensing and other requirements of an enterprise.
+此外，创建其他工作职位对于开源项目办公室的成功非常重要，包括工具管理员、培训管理人员、工具和系统集成开发人员、部署支持人员、实施项目主管以及开源布道师。例如，工具管理员需要帮助选择、提供和集成开发其开源项目的工程师所需的工具，同时还要确保工具满足企业的许可和其他要求。
 
 ## 设定政策和流程
 
-With many of the other important components now planned or assembled for your company's open source program office, from its creation to its structure to personnel, the next step is to develop well-defined policies and processes which will enable consistent implementation of your company's open source strategy.
+经过了上述的一些步骤，其实已经为公司的开源项目办公室规划了很多内容了，从开始创建再到人员的分配，那么接下来我们要做的就是制定明确的策略和流程，从而实现公司开源的战略。
 
-The policies should lay out the requirements and rules for working with open source across the company, as well as documented and executable processes which will ensure the rules are followed on a day-to-day basis.
+为开源所制定的政策应该在全公司范围内被执行和遵守，并要确保融入公司的日常，是文档化的且是可执行的流程。
+
 
 Crucially, they should require minimal overhead. Microsoft looks at its open source program office policies and processes with the goal of making them as unobtrusive as possible for developers and other team members. The approach is to repeatedly eliminate, automate and delegate when reviewing existing open source policies and processes so the rules are constantly questioned and updated to streamline procedures. That means asking why policies are even in place and how they can be improved for users.
 
-> "Having a well-defined policy in place, that's great, but it's got to be a well-defined minimal policy. Otherwise you get lawyers, security folks, business folks, all piling in their concerns and constraints. Soon you end up with a strait jacket full of policy that basically means that nobody can do anything." -[Jeff McAffer](https://twitter.com/jeffmcaffer), director of the [Open Source Programs Office at Microsoft](https://opensource.microsoft.com/resources/office)
+> "在拥有定义良好政策的地方，是非常庆幸的一件事，但它必也须有一个明确的最低限度政策。 否则，你会被律师、安全人员、业务人员等所困扰，他们都在关注政策，这也就会进一步限制它。。 如果那样的话，不久，你就会遇到一个充满政策的两难境地，那样的话，意味着再没有人能做任何事情." -[Jeff McAffer](https://twitter.com/jeffmcaffer)，[微软开源项目办公室](https://opensource.microsoft.com/resources/office)总监
 
 Even as those rules are carefully created for open source program offices, companies must be prepared to evolve and modify the rules and procedures as needed over time as their businesses change and as their open source engagements mature and grow.
 
@@ -188,7 +190,7 @@ This may sound like yet another daunting step in the process, but like open sour
 
 Among the best examples of such rules are from Google, which early in 2017 published its [open source policies](https://opensource.google.com/docs/) for review and free use so others can learn how the company uses, releases and supports open source and how it's involved in projects and communities. Some of the content is scrubbed for security and privacy reasons, but it provides many lessons learned in how the company does its work.
 
-When drafting open source policies, among the many topics that need to be discussed are:
+在制定开源政策时，需要讨论的许多主题包括：
 
 * 贵公司如何接受自己的员工为外部的开源项目做贡献
 * 如何准备开源的发布
@@ -201,15 +203,15 @@ When drafting open source policies, among the many topics that need to be discus
 
 ### 发布代码的政策
 
-You want to help people be successful in making contributions to open source projects and in releasing their own projects. Guidelines and checklists ensure that developers have everything they need to release their code as open source without running into licensing or confidentiality issues. Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution. (See our guide on Participating in Open Source Communities.)
+你肯定是希望能够帮助人们成功的参与到你的开源项目中来，甚至是帮助他们发起自己的项目，向导指南和清单可以确保开发者们一站式的完成所有发布代码到开源项目中的所有事情，而不是自己去找许可证或保密的事情。尤其是对于新来的贡献者，这些清单可以帮助在提交到上游之前，现在内部做一些审核的流程并获得反馈。（请参考如何参与到开源社区。）
 
-Your organization should also strive to adopt an "upstream first" development policy. By submitting patches to the upstream open source project first, and incorporating them into your own products downstream, you will avoid spending a massive amount of time and money on re-engineering after each release.
+你的公司最好是采用”上游优先”的开发策略。通过首先向上游的开源项目提交补丁，然后将之合并到你的下游产品中，您将避免在每次发布后花费大量时间和金钱进行重新设计。
 
 ### 接受贡献的规则
 
 Unless your open source projects are housed at a neutral foundation, you’ll want to [...] Rules that set out procedures for your company to receive contributions to your own open source projects from external developers are particularly important.
 
-> "You actually don't want to be the only people contributing to your open source project. You want to have people outside your company contribute to your open source project, because at the end of the day, there's no way to hire all the smartest people in the world. It's impossible. Even if you're Google, it's still impossible." - [Chris Aniszczyk](https://twitter.com/cra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), COO of the Cloud Native Computing Foundation.
+> "You actually don't want to be the only people contributing to your open source project. You want to have people outside your company contribute to your open source project, because at the end of the day, there's no way to hire all the smartest people in the world. It's impossible. Even if you're Google, it's still impossible." - [Chris Aniszczyk](https://twitter.com/cra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)，云原生计算基金会COO
 
 That is, of course, one of the benefits of putting your company's open source code out into other communities and inviting other developers to establish an interest in your own projects. Because in the grand scheme of things, even though they are not officially your employees, you can have brilliant people working on your company's code from around the world, making it better and expanding its capabilities. This kind of collaboration is important for companies and is a common focus for many open source program offices.
 
