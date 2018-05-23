@@ -6,7 +6,8 @@
 
 ## 为什么要创建开源项目？
 
-There are plenty of reasons for your company to start an open source project. You might aim to innovate faster, achieve quicker time to market, collect new ideas, enable interoperability or de facto standards recruit talented developers, and gather diverse viewpoints and contributions to produce better code and better products.
+读者你所在的公司有一万个理由去开启一个开源项目。或许是想加速创新、又或者是加快上市速度、亦或是收集新的创意、还是为了增强互操作性或事实上的标准而希望雇佣有天分的开发者、以及收集多种多样的观点、再就是希望能够生产出更好的代码和更棒的产品，等等。总而言之，开源好处多多。
+
 
 These benefits can all be realized by using and contributing to open source projects created and managed outside your company. But a comprehensive open source strategy often includes creating and launching your own open source projects as well.
 
@@ -268,15 +269,15 @@ Now that you have the project, it's your job to promote it and let people know i
 ### 商业战略和规划
 
 - [ ] 为项目做出最终决定并设置目标
-- [ ]从相关干系人处收集开源的原因
-- [ ]选择要为项目考虑的代码
-- [ ]决定项目的开源部分：是应用的全部，还是部分
-- [ ]为选择的建议书建立商业案例
-- [ ]确定是否有行政人员参与此举
-- [ ]针对开发者和开销做出资源规划书
-- [ ]设置成本预算，包括开发时间，基础设施和相关费用
-- [ ]收集高管和技术人员进行项目讨论和决策
-- [ ]辩论并最终确定项目范围和代码选择
+- [ ] 从相关干系人处收集开源的原因
+- [ ] 选择要为项目考虑的代码
+- [ ] 决定项目的开源部分：是应用的全部，还是部分
+- [ ] 为选择的建议书建立商业案例
+- [ ] 确定是否有行政人员参与此举
+- [ ] 针对开发者和开销做出资源规划书
+- [ ] 设置成本预算，包括开发时间，基础设施和相关费用
+- [ ] 收集高管和技术人员进行项目讨论和决策
+- [ ] 辩论并最终确定项目范围和代码选择
 
 
 ### 法律审核
