@@ -8,8 +8,9 @@
 
 读者你所在的公司有一万个理由去开启一个开源项目。或许是想加速创新、又或者是加快上市速度、亦或是收集新的创意、还是为了增强互操作性或事实上的标准而希望雇佣有天分的开发者、以及收集多种多样的观点、再就是希望能够生产出更好的代码和更棒的产品，等等。总而言之，开源好处多多。
 
+以上种种好处，都是建立在贵司使用和贡献开源项目所应得的，但是一个更富战略意义的开源应该去创建和建立自己的开源项目。
 
-These benefits can all be realized by using and contributing to open source projects created and managed outside your company. But a comprehensive open source strategy often includes creating and launching your own open source projects as well.
+
 
 Initiating projects or releasing existing projects as open source to the community strengthens the sense of give and take, which can further build a company’s reputation in open source, and make the company even more attractive to open source developers and more influential in the open source projects where it contributes. Having your codebase as a starting point for discussion can bring other advantages as you look to engage an external ecosystem of partners, vendors and users.
 
@@ -19,8 +20,7 @@ This is true whether your primary mission is financial services, providing healt
 
 *"无论公司雇佣了多少聪明的员工，而总是还会有更加聪明的人没有招进来。不过我们发现了一种利用公司外部聪明的人的做法，那就是参与到开源去，我们先分享我们的代码，然后会发现收获的更多，那些外部的聪明提交的想法真是棒极了！" -* Jared Smith, Capital One 开源社区经理
 
-Companies look to open source when they want to move their agendas forward in areas where they might not have the needed talent on staff. By moving to open source, they can often speed up their efforts and work with others who are working toward the same software goals, while also cutting costs and improving their end products.  
-
+企业之所以选择开源，是当他们想往前积极的推进项目的时候，公司人手紧张，希望通过开源，能够让工作进度加快，并希望和其他人协作来完成软件的实现，在降低了成本的同事，还改进了他们的产品。可谓一举多得。
 
 开源项目提供的自由的进行协作--甚至是同一行业内相互竞争的友商——也因为有跟多的人参与可以加速项目木的开发。通过紧密的合作，开发者们可以公开的分享，收获大量的反馈，并共同构建可扩展，高效和高质量的代码。
 

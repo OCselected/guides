@@ -179,16 +179,16 @@ Samsung 的项目经理 Ibrahim Haddad 曾写过一本 [企业中的开源合规
 
 为开源所制定的政策应该在全公司范围内被执行和遵守，并要确保融入公司的日常，是文档化的且是可执行的流程。
 
+要慎重对待此事，尽可能的将之精简到最小，比如微软所制定的开源项目办公室政策和流程的目标就是不让开发者和其它的相关成员感觉不到它们的存在。而且这是一个不断迭代的过程，最初制定一些政策和流程，然后让他们不断地质疑并提出问题，然后我们在不断的完善。这就意味着政策要经受的起质疑，对使用者来讲又有何用处。
 
-Crucially, they should require minimal overhead. Microsoft looks at its open source program office policies and processes with the goal of making them as unobtrusive as possible for developers and other team members. The approach is to repeatedly eliminate, automate and delegate when reviewing existing open source policies and processes so the rules are constantly questioned and updated to streamline procedures. That means asking why policies are even in place and how they can be improved for users.
 
 > "在拥有定义良好政策的地方，是非常庆幸的一件事，但它必也须有一个明确的最低限度政策。 否则，你会被律师、安全人员、业务人员等所困扰，他们都在关注政策，这也就会进一步限制它。。 如果那样的话，不久，你就会遇到一个充满政策的两难境地，那样的话，意味着再没有人能做任何事情." -[Jeff McAffer](https://twitter.com/jeffmcaffer)，[微软开源项目办公室](https://opensource.microsoft.com/resources/office)总监
 
-Even as those rules are carefully created for open source program offices, companies must be prepared to evolve and modify the rules and procedures as needed over time as their businesses change and as their open source engagements mature and grow.
+尽管这些规则是由开源项目办公室精心制定，但是公司仍然要做好不断进化和修改这些规则的准备，而且随着时间的推移，企业业务会增长和变化，那么开源相应的也要进一步采取相应的手段的发展并慢慢成熟起来。
 
-This may sound like yet another daunting step in the process, but like open source code itself, sample rules and processes are available from open source silos and can be implemented and customized by enterprises, making your tasks easier.
+这似乎看起来像是流程中的另外一个艰巨的步骤，但是就像开源代码本身一样，实例规则和流程可以从小的开源项目中获得，而且企业也可以定制和实施，最终的目标都是尽可能让任务变得更加的轻松。
 
-Among the best examples of such rules are from Google, which early in 2017 published its [open source policies](https://opensource.google.com/docs/) for review and free use so others can learn how the company uses, releases and supports open source and how it's involved in projects and communities. Some of the content is scrubbed for security and privacy reasons, but it provides many lessons learned in how the company does its work.
+开源的规则，最好的例子来自Google，其再2017年早些时候发布了 [开源政策](https://opensource.google.com/docs/) ，这是一份大家可以借鉴和学习的材料，看看Google是如何使用、发布和支持开源的，以及Google时如何参与到其它开源项目和社区中的。尽管由于安全和隐私的原因，Google剔除了一些内容，但是整体来讲对于无伤大雅，它还是提供了很多值得其它公司值得学习和借鉴的地方。
 
 在制定开源政策时，需要讨论的许多主题包括：
 
@@ -209,27 +209,28 @@ Among the best examples of such rules are from Google, which early in 2017 publi
 
 ### 接受贡献的规则
 
-Unless your open source projects are housed at a neutral foundation, you’ll want to [...] Rules that set out procedures for your company to receive contributions to your own open source projects from external developers are particularly important.
+除非贵司的开源项目是移交到中立的基金会，否则，你就得去定义一些规则、设定一些流程，从而让贵司之外的开发者贡献是非常重要的事情。
 
-> "You actually don't want to be the only people contributing to your open source project. You want to have people outside your company contribute to your open source project, because at the end of the day, there's no way to hire all the smartest people in the world. It's impossible. Even if you're Google, it's still impossible." - [Chris Aniszczyk](https://twitter.com/cra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)，云原生计算基金会COO
 
-That is, of course, one of the benefits of putting your company's open source code out into other communities and inviting other developers to establish an interest in your own projects. Because in the grand scheme of things, even though they are not officially your employees, you can have brilliant people working on your company's code from around the world, making it better and expanding its capabilities. This kind of collaboration is important for companies and is a common focus for many open source program offices.
+> "没有人愿意自己所开源的项目只有自己一个贡献者，你总是会希望公司外部的人参与、贡献到你的开源项目，要知道，即使花再多的时间，也不可能将全世界所有的聪明人都招聘到你的公司来的，想都不用想了。即使是Google这样的超级公司，也是不可能的。 - [Chris Aniszczyk](https://twitter.com/cra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)，云原生计算基金会COO
 
-### Policies to promote adoption
+毫无疑问，传播自己的开源的一个渠道就是将你的代码放在其它兄弟社区，并且邀请其他开发者来到你的社区，从而开始建立可能的兴趣。而这正式公司拥抱开源的魅力所在，即使这些开发者不是贵司的员工，来自世界各个角落充满天分的人们会为你的项目贡献力量，使之变得更好，并扩展其功能。此种类型的协作对于公司实在是太重要了，而这也恰是开源项目办公室的重点关注的内容。
 
-You also want to encourage others to use your code in their products and services. This is key to building ecosystems that in turn help grow and sustain your open source projects. Policies for open source use can come in a variety of innovative forms.
+### 促进采用的政策
 
-Red Hat has a unique policy by defaulting to open source with its newly-created code in most cases from the start. That means that when developing each piece of software inside the company, it is assumed that in the future it may be destined to be released as open source. This is intriguing because typically there is a different attitude among engineers for releasing their code as open source because other people will then be looking at it.  Due to that scrutiny, they tend to structure things in better ways when writing open source, creating cleaner code with fewer or improved code dependencies in their work.
+你定会想让人们在他们的产品和服务中使用你的代码，这就是构建生态系统的关键所在，因为它可以反过来帮助开发和维护你的开源项目，所以开源的政策使用要采用各种的创新形式。
 
-### Policies for internal consumption
+红帽在这方面可谓是非常的独特，每一个发起的项目，即从头开始写的代码，默认都是开源的。这就意味着在公司内部所开发的每一款软件，都假设在未来会以开源的形式发布。这对于工程师来说是非常有吸引力的，因为我们知道，在通常情况下，工程师如果知道自己的代码将开源，那么他对待其态度是完全不同的，因为他知道他的代码将会被别人看到。由于有此条默认的规则，所以他们在项目的一开始就竭尽全力的去以更好的方式构建项目，这样直接的结果就是能写出更加少依赖的干净的代码，以后也很少的进行改进。
 
-Other needed policies include rules about how and where your team finds trusted sources for open source software use and creation, policies about establishing code management and maintenance procedures, and formalizing community interaction for your projects. (See our guide on Using and Distributing Open Source Code.)
+### 内部使用的政策
 
-An open source usage policy ensures that any software (proprietary, third-party, or open source) that makes its way into the product base has been audited, reviewed, and approved. It also ensures that your company has a plan to fulfill the license obligations resulting from using the various software components, before your products make it to customers.
+除了上述提到的策略之外，还需要一些额外的补充，如团队该如何或者去哪里找到可以信任的源用在开源项目中，以及创建关于代码管理和维护流程的政策、和社区互动的规范等。（可以参考企业开源指南之——使用和分发开源代码。）
 
-For example, your policy could require engineers to receive approval from your organization’s auditing staff, such as an open source review board (OSRB), before integrating any open source code in a product. It may also state that software received from third parties must be audited to identify any open source code included, which ensures license obligations can be fulfilled before a product ships.
+开源的使用政策要确保在产品中所使用到的软件（私有的、第三方的，亦或是开源的）都须是经过审计的、批准核实的。它同时也要确保公司在使用许可证方面有一定规划，而这要在产品交付给用户之前完成。
 
-### Policies for compliance
+举例来说，你所制定的政策，确保任何的开源代码整合进产品之前，要有一些诸如开源审核委员会（OSRB）这样公司级别的审计同事们的批准。而且还要声明，从第三方收到的软件必须经过审核，以确定包含的任何开放源代码，这确保了在产品发货之前可以履行许可义务。
+
+### 合规性政策
 
 Also needed are policies to formalize and establish legal compliance procedures and to assure executive oversight for the program. (See our ebook, Open Source Compliance in the Enterprise, for a detailed compliance program.)
 
@@ -245,7 +246,7 @@ Google regularly uses a variety of tools to perform automated code checks using 
 
 All new Google engineers are also required to go through a one-hour open source class where licensing and compliance are stressed as part of how the company does business. A key lesson shared by the company is that not only is Google obligated by licensing legalese to comply with licenses, but that it also complies because it's the right thing to do for the community. Google's lawyers are available to represent the company if an obvious mistake is made in licensing or code use, but the company is very sensitive about potentially submitting code that could harm its standing in the community.
 
-> "Angering our friends in the open source community would be devastating. It's not something we would ever want to do because we care about this community, we're part of it. For companies that are new to open source, I think they often fail to recognize the importance of that." - [Will Norris](https://twitter.com/willnorris?lang=en), open source office manager at Google
+> "Angering our friends in the open source community would be devastating. It's not something we would ever want to do because we care about this community, we're part of it. For companies that are new to open source, I think they often fail to recognize the importance of that." - [Will Norris](https://twitter.com/willnorris?lang=en)，Google 开源项目办公室经理
 
 ## 写在最后
 
