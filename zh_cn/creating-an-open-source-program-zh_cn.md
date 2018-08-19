@@ -232,21 +232,21 @@ Samsung 的项目经理 Ibrahim Haddad 曾写过一本 [企业中的开源合规
 
 ### 合规性政策
 
-Also needed are policies to formalize and establish legal compliance procedures and to assure executive oversight for the program. (See our ebook, Open Source Compliance in the Enterprise, for a detailed compliance program.)
+还需要制定正式的政策，建立法律合规程序且要确保对该计划在行政上进行监督。（关于企业开源合规性，请参考Linux基金会的电子书，有更多的细节可参考。）
 
-You’ll also want to map out how you’ll handle the software tools that will make much of the compliance and code testing work possible by automating it and streamlining procedures for developers and contributors. For example, the[I think we need to mention SPDX and OpenChain tools from The Linux Foundation, along with help from yourand working with internal supply chain teams, will internally to ensure that code brought in by third parties is also compliant.]
+您还想计划如何通过软件工具的自动化，并将开发人员和贡献者的工作流程的简化，实现大部分合规性和代码测试工作。例如，Linux基金会的 [SPDX](https://spdx.org/) 和 [OpenChain](https://www.openchainproject.org/) 工具在内部供应链团队的帮助下，可以有效保障了第三方引入代码的合规性。
 
-There's a broad array of open source (e.g. FOSSology) and fee-based proprietary tools in the marketplace today that can help with these important tasks. For most open source program offices, a high-quality and comprehensive collection of tools can be brought together without the need to build your own custom tools. Again, much of this is due to open source collaboration, where contributing developers have created and refined the tools which can handle these tasks for enterprises. And if the tools don't do exactly what your project needs, then users can contribute back to modify and improve them to gain the capabilities they seek. Getting involved in the open source community around enterprise tooling is something that your open source program office will likely support.
+如今的软件市场上有各种开源工具（如 FOSSology ）和付费工具可以帮助完成这些重要任务，而且对于大多数开源项目办公室来说，他们可以将这些高质量的工具有效整合，从而无需去重新构建自己的工具。这主要归功于在开源过程中的通力协作，贡献者已经创建并完善了能为企业处理这些重要任务的工具。如果这些工具不能完全满足项目需求，那么可以通过用户反馈意见修改和改进工具以获得他们所需要的功能。您的开源项目办公室将很有可能支持围绕企业工具，进而参与到开源社区中来。
 
-Existing open source resources are also potential gold mines for finding other materials needed by your open source projects, including documentation for contributor license agreements (CLAs). CLAs define the terms under which intellectual property has been contributed to open source software. "define the terms under which intellectual property has been contributed to a company/project, typically software under an open source license."[[https://en.wikipedia.org/wiki/Contributor_License_Agreement](https://en.wikipedia.org/wiki/Contributor_License_Agreement)] Projects that use CLAs require contributors, and often their companies, to sign the CLA agreements before contributions will be accepted by the project.
+现有的开源资源对于寻找开源项目所需的其他材料（包括贡献者许可协议（CLAs）文档）来说，犹如一座潜在的金矿。贡献者许可协议（CLAs）定义了知识产权对开源软件的贡献条款。”定义知识产权为公司/项目提供的条款，通常是开源许可下的软件。” （请进一步参考[[https://en.wikipedia.org/wiki/Contributor_License_Agreement](https://en.wikipedia.org/wiki/Contributor_License_Agreement)]） 采用贡献者许可协议（CLAs）的项目在接受贡献之前要求贡献者，通常还有他们的公司，签署贡献者许可协议（CLA）。
 
-Many companies have written their own CLAs, but generic versions are available as open source agreements which one can use without starting from scratch. Most of what you will need can be found in a template and then you can customize the CLAs to cover any issues that remain. Attorneys from other potential contributing companies will often appreciate reuse of standard terms.
+许多公司已经编制了自己的贡献者许可协议（CLAs），但现在已有可直接作为开源协议使用的、无需从头开始编制的通用版本。您所需的大部分协议内容都可以在模板中找到，之后您可以自定义贡献者许可协议（CLAs）以涵盖所有依然存在的问题。来自其他潜在的贡献公司的律师通常会接受标准条款的重复使用。
 
-Google regularly uses a variety of tools to perform automated code checks using features such as custom filters, which can scan code bases to check for licenses, license compatibility, and other factors. Each time Google releases a new version of Android or other application, it undergoes an automated process for checking license compliance, simplifying procedures for the company. Automation quickens making the argument to engineers that the process is simple and seamless and won't burden them to use for their applications.
+Google内部定期使用各种工具来执行自动化代码检查，例如使用自定义过滤器等功能来执行自动化代码检查，这些功能可扫描代码库以检查许可证、许可证兼容性和其他因素。Google每次发布新的Android或其他的应用程序时，都会进行自动化检查许可证的合规性流程，从而简化公司程序。不仅如此，由于这是自动化的流程，因此可以更轻松地向工程师说明该过程是简单且无缝的，且不会对他们使用自己的应用程序带来负担。
 
-All new Google engineers are also required to go through a one-hour open source class where licensing and compliance are stressed as part of how the company does business. A key lesson shared by the company is that not only is Google obligated by licensing legalese to comply with licenses, but that it also complies because it's the right thing to do for the community. Google's lawyers are available to represent the company if an obvious mistake is made in licensing or code use, but the company is very sensitive about potentially submitting code that could harm its standing in the community.
+所有新入职的Google工程师都需要进行一个小时的开源课程，主要内容会讲解关于许可协议和合规性，这是作为公司日常的一个部分来做的。其中一个关键的课程是Google不仅要按照公司律师所规定的履行职责，同时也要遵守对应开源社区的规则行事。如果在授权或代码使用方面出现明显错误，Google的律师可以代表公司，但公司对潜在提交可能损害其在社区中的地位的代码非常敏感。
 
-> "Angering our friends in the open source community would be devastating. It's not something we would ever want to do because we care about this community, we're part of it. For companies that are new to open source, I think they often fail to recognize the importance of that." - [Will Norris](https://twitter.com/willnorris?lang=en)，Google 开源项目办公室经理
+> "在开源社区，让我们的朋友不爽是毁灭性的事情。Google 作为社区的一份子，是非常关心社区的健康发展的，不愿意看到这样的事情发生，但是对于一些新入开源的公司，他们经常难以意识到这一点。" - [Will Norris](https://twitter.com/willnorris?lang=en)，Google 开源项目办公室经理
 
 ## 写在最后
 
@@ -259,7 +259,7 @@ All new Google engineers are also required to go through a one-hour open source 
 
 如果你对构建开源项目办公室有兴趣，而且有意愿去雇佣类似的角色，我们建议你参考下来自 TODO Group 真是的工作描述模板：
 
-https://github.com/todogroup/job-descriptions
+[https://github.com/todogroup/job-descriptions](https://github.com/todogroup/job-descriptions)
 
 ## 鸣谢
 
@@ -270,4 +270,4 @@ https://github.com/todogroup/job-descriptions
 * [Will Norris](https://twitter.com/willnorris?lang=en), Google开源项目办公室
 * [Andrew Spyker](https://twitter.com/aspyker), Netflix 容器云经理
 
-> These resources were created in partnership with the TODO (Talk Openly, Develop Openly) Group - the professional open source program networking group at The Linux Foundation. A special thanks goes out to the open source program managers who contributed their time and knowledge to making these comprehensive guides. Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware. To learn more, visit: [todogroup.org](http://todogroup.org/)
+> 这些资源是与TODO（公开对话，开放式开发）小组 – Linux基金会的专业开源程序网络小组合作创建的。 特别感谢那些贡献自己的时间和知识来制作这些综合指南的开源项目经理。 参与的公司包括Autodesk，Comcast，Dropbox，Facebook，Google，Intel，Microsoft，Netflix，Oath（Yahoo + AOL），Red Hat，Salesforce和Samsung。 要了解更多信息，请访问 [todogroup.org](http://todogroup.org/)。我们邀请您在GitHub上下载、传播，如果可以请积极的参与这些指南。
